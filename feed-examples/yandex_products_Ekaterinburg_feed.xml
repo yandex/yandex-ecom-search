@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2023-12-11T20:53:45+03:00">
+    <shop>
+        <name>YetAnotherShop</name>
+        <company>ООО "Другой Интернет-Магазин"</company>
+        <url>https://yetanothershop.ru</url>
+        <currencies>
+            <currency id="RUR" rate="1"/>
+        </currencies>
+        <categories>
+            <category id="1">Все товары</category>
+            <category id="101" parentId="1">Электроника</category>
+            <category id="102" parentId="1">Одежда</category>
+            <category id="103" parentId="1">Сувенирная продукция</category>
+            <category id="10101" parentId="101">Станции</category>
+            <category id="10102" parentId="101">ТВ</category>
+            <category id="10103" parentId="101">Умный дом</category>
+        </categories>
+        <promos>
+            <promo id="Y_Museum_NewYear" type="promo code">
+                <start-date>2023-12-15 09:00:01+0300</start-date>
+                <end-date>2023-12-31 23:59:59+0300</end-date>
+                <promo-code>Y_NEWYEAR2024</promo-code>
+                <discount unit="currency" currency="RUR">1000</discount>
+                <url>https://yetanothershop.ru/promos/newyear2024</url>
+                <purchase>
+                    <product>offer-id="5410101000011"</product>
+                    <product>offer-id="5410101000010"</product>
+                    <product>offer-id="5410101000009"</product>
+                </purchase>
+            </promo>
+            <promo id="Y_Museum_Christmas" type="promo code">
+                <start-date>2024-01-01</start-date>
+                <end-date>2024-01-10</end-date>
+                <promo-code>Y_CHRISTMAS2024</promo-code>
+                <discount unit="percent">25</discount>
+                <url>https://yetanothershop.ru/promos/christmas2024</url>
+                <purchase>
+                    <product>offer-id="5410103000010"</product>
+                    <product>offer-id="5410103000008"</product>
+                </purchase>
+            </promo>
+        </promos>
+        <offers>
+            <offer id="5410103000001">
+                <name>Умная лампочка Яндекса E14</name>
+                <url>https://yetanothershop.ru/products/umnaia_lampochka_yandexa_e14</url>
+                <price>1490</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10103</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00017</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/umnaia_lampochka_yandexa_e14_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_lampochka_yandexa_e14_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_lampochka_yandexa_e14_3.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_lampochka_yandexa_e14_4.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Лампочка Яндекс YNDX-00017 — умный источник света в вашем доме.</p>
+                        <p>Настраивать и управлять светом в вашем доме теперь легко, ведь умная лампочка — это:</p>
+                        <p>• Возможность работы с Алисой: включайте и выключайте умную лампочку голосом, не вставая с дивана, — в люстре, бра или торшере. Понадобится только умная колонка или мобильное приложение Дом с Алисой. </p>
+                        <p>• Разные режимы яркости и цвета: выбирайте желтый, белый, красный и другие цвета и яркость в диапазоне от 2 700 К до 6 500 К для медитаций или вечеринок. Нужно просто сказать: «Алиса, включи режим вечеринки в гостиной».</p>
+                        <p>• Отложенные команды: устанавливайте таймер, например, выключайте свет в детской через 15 минут после завершения сказки, и управляйте группами устройств — люстрой или светом в отдельной комнате.</p>
+                        <p>• Экономия ресурсов: лампочка потребляет всего 4.8 Вт и служит до 15 000 часов.</p>
+                        <p>• Умный дом с Алисой: настраивайте сценарий работы сразу для нескольких устройств — синхронизируйте лампочки, розетки и Яндекс Станции.</p>
+                    ]]>
+                </description>
+                <param name="Тип лампы">Светодиодная</param>
+                <param name="Энергосберегающая">Да</param>
+                <param name="Форма колбы">Свеча</param>
+                <param name="Тип цоколя">E14</param>
+                <param name="Мощность" unit="Вт">4.8</param>
+                <param name="Напряжение" unit="В">220</param>
+                <param name="Свет">RGB</param>
+                <param name="Степень пылевлагозащиты">IP40</param>
+                <param name="Минимальная цветовая температура" unit="K">2700</param>
+                <barcode>4670028540756</barcode>
+                <condition type="preowned">
+					<quality>perfect</quality>
+					<reason>Витринный образец</reason>
+                </condition>
+            </offer>
+            <offer id="5410103000002">
+                <name>Умная лампочка Яндекса E27</name>
+                <url>https://yetanothershop.ru/products/umnaia_lampochka_yandexa_e27</url>
+                <price>1490</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10103</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00018</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/umnaia_lampochka_yandexa_e27_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_lampochka_yandexa_e27_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_lampochka_yandexa_e27_3.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_lampochka_yandexa_e27_4.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_lampochka_yandexa_e27_5.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_lampochka_yandexa_e27_6.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Умная Яндекс Лампа позволяет дистанционно управлять освещением в комнате или доме. Поддержка W-Fi позволяет лампе работать в системе «умный дом» Яндекса и реагировать на команды, отданные по мобильному приложению или напрямую голосовому помощнику Алисе.</p>
+                        <p>Можно одной фразой включить, выключить свет или удалённо настроить освещение. К тому же есть возможность настройки работы лампы в рамках запланированных сценариев, включая и выключая свет по таймеру или сигналу включённых в систему датчиков. Стандартный цоколь Е27 обеспечивает широкий спектр применения и стандартную установку.</p>
+                        <p>Номинальной мощности в 8 Вт и светового потока в 900 люмен достаточно для яркого и приятного глазу освещения комнаты, а возможность регулировать цветовую температуру от 1700 до 6500 К позволит создать тёплое мягкое освещение для романтичного вечера или холодный свет для продуктивной работы.</p>
+                    ]]>
+                </description>
+                <param name="Тип лампы">Светодиодная</param>
+                <param name="Энергосберегающая">Да</param>
+                <param name="Форма колбы">Цилиндрическая</param>
+                <param name="Тип цоколя">E27</param>
+                <param name="Напряжение" unit="В">220</param>
+                <param name="Свет">RGB</param>
+                <param name="Степень пылевлагозащиты">IP40</param>
+                <param name="Минимальная цветовая температура" unit="K">1700</param>
+                <barcode>4670028540770</barcode>
+                <condition type="preowned">
+					<quality>excellent</quality>
+					<reason>Витринный образец, незначительные следы использования</reason>
+                </condition>
+            </offer>
+            <offer id="5410103000003">
+                <name>Умная лампочка Яндекса GU10</name>
+                <url>https://yetanothershop.ru/products/umnaia_lampochka_yandexa_gu10</url>
+                <price>1490</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10103</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00019</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/umnaia_lampochka_yandexa_gu10_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_lampochka_yandexa_gu10_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_lampochka_yandexa_gu10_3.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_lampochka_yandexa_gu10_4.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_lampochka_yandexa_gu10_5.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Умная Яндекс Лампа YNDX-00019 позволяет дистанционно управлять освещением в комнате или доме. Поддержка W-Fi позволяет лампе работать в системе «умный дом» Яндекса и реагировать на команды, отданные по мобильному приложению или напрямую голосовому помощнику Алисе. </p>
+                        <p>Можно одной фразой включить, выключить свет или удалённо настроить освещение Яндекс. К тому же есть возможность настройки работы лампы в рамках запланированных сценариев, включая и выключая свет по таймеру или сигналу включённых в систему датчиков. Стандартный цоколь Яндекс Лампочки GU10 обеспечивает широкий спектр применения и стандартную установку.</p>
+                        <p>Номинальной мощности в 4.9 Вт и светового потока в 400 люмен достаточно для яркого и приятного глазу освещения комнаты, а возможность регулировать цветовую температуру от 2700 до 6500 К позволит создать тёплое мягкое освещение для романтичного вечера или холодный свет для продуктивной работы.</p>
+                    ]]>
+                </description>
+                <param name="Тип лампы">Светодиодная</param>
+                <param name="Энергосберегающая">Да</param>
+                <param name="Форма колбы">Софит</param>
+                <param name="Тип цоколя">GU10</param>
+                <param name="Мощность" unit="Вт">4.9</param>
+                <param name="Напряжение" unit="В">220</param>
+                <param name="Свет">RGB</param>
+                <param name="Степень пылевлагозащиты">IP40</param>
+                <param name="Минимальная цветовая температура" unit="K">2700</param>
+                <barcode>4670028540794</barcode>
+                <condition type="preowned">
+					<quality>good</quality>
+					<reason>Повреждена заводская упаковка, есть видимые следы использования</reason>
+                </condition>
+            </offer>
+            <offer id="5410101000001">
+                <name>Умная колонка Яндекс Станция Мини с часами Синий сапфир</name>
+                <url>https://yetanothershop.ru/products/umnaia_kolonka_yandex_mini_siniy_sapfir</url>
+                <price>8990</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10101</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00020B</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_mini_siniy_sapfir_1.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Обновленная версия умной колонки с голосовым ассистентом Алисой. Модель получила более громкий звук — мощностью 10 Вт. Колонкой можно управлять не только голосом, но и с помощью сенсорных кнопок, расположенных сверху. Алиса, конечно, умеет управлять умным домом и подбирать музыку, знает много детских сказок, разбудит вовремя, сообщит новости и напомнит о важных делах.</p>
+                        <p>Станция Мини впишется практически в любой интерьер благодаря лаконичному дизайну и возможности выбрать цвет. В интернет колонка выходит по Wi-Fi, а Bluetooth 5.0 позволит подключать, например, такие устройства, как умная лампа и пылесос.</p>
+                    ]]>
+                </description>
+                <param name="Наличие часов">Да</param>
+                <param name="Цвет">Синий сапфир</param>
+                <param name="Голосовой помощник">Алиса</param>
+                <param name="Язык голосового помощника">русский</param>
+                <param name="Суммарная мощность" unit="Вт">10</param>
+                <param name="Минимальная воспроизводимая частота" unit="Гц">50</param>
+                <param name="Максимальная воспроизводимая частота" unit="кГц">20</param>
+                <param name="Диаметр широкополосного динамика" unit="мм">42</param>
+                <param name="Отношение сигнал/шум" unit="дБ">95</param>
+                <param name="Количество микрофонов">4</param>
+                <barcode>2009084317354</barcode>
+            </offer>
+            <offer id="5410101000002">
+                <name>Умная колонка Яндекс Станция Мини с часами Серый опал</name>
+                <url>https://yetanothershop.ru/products/umnaia_kolonka_yandex_mini_seriy_opal</url>
+                <price>8990</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10101</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00020G</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_mini_seriy_opal_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_mini_seriy_opal_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_mini_seriy_opal_3.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Обновленная версия умной колонки с голосовым ассистентом Алисой. Модель получила более громкий звук — мощностью 10 Вт. Колонкой можно управлять не только голосом, но и с помощью сенсорных кнопок, расположенных сверху. Алиса, конечно, умеет управлять умным домом и подбирать музыку, знает много детских сказок, разбудит вовремя, сообщит новости и напомнит о важных делах.</p>
+                        <p>Станция Мини впишется практически в любой интерьер благодаря лаконичному дизайну и возможности выбрать цвет. В интернет колонка выходит по Wi-Fi, а Bluetooth 5.0 позволит подключать, например, такие устройства, как умная лампа и пылесос.</p>
+                    ]]>
+                </description>
+                <param name="Наличие часов">Да</param>
+                <param name="Цвет">Серый опал</param>
+                <param name="Голосовой помощник">Алиса</param>
+                <param name="Язык голосового помощника">русский</param>
+                <param name="Суммарная мощность" unit="Вт">10</param>
+                <param name="Минимальная воспроизводимая частота" unit="Гц">50</param>
+                <param name="Максимальная воспроизводимая частота" unit="кГц">20</param>
+                <param name="Диаметр широкополосного динамика" unit="мм">42</param>
+                <param name="Отношение сигнал/шум" unit="дБ">95</param>
+                <param name="Количество микрофонов">4</param>
+                <barcode>2009084317347</barcode>
+            </offer>
+            <offer id="5410101000003">
+                <name>Умная колонка Яндекс Станция Мини с часами Черный оникс</name>
+                <url>https://yetanothershop.ru/products/umnaia_kolonka_yandex_mini_chernyi_oniks</url>
+                <price>8990</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10101</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00020K</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_mini_chernyi_oniks_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_mini_chernyi_oniks_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_mini_chernyi_oniks_3.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_mini_chernyi_oniks_4.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_mini_chernyi_oniks_5.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Обновленная версия умной колонки с голосовым ассистентом Алисой. Модель получила более громкий звук — мощностью 10 Вт. Колонкой можно управлять не только голосом, но и с помощью сенсорных кнопок, расположенных сверху. Алиса, конечно, умеет управлять умным домом и подбирать музыку, знает много детских сказок, разбудит вовремя, сообщит новости и напомнит о важных делах.</p>
+                        <p>Станция Мини впишется практически в любой интерьер благодаря лаконичному дизайну и возможности выбрать цвет. В интернет колонка выходит по Wi-Fi, а Bluetooth 5.0 позволит подключать, например, такие устройства, как умная лампа и пылесос.</p>
+                    ]]>
+                </description>
+                <param name="Наличие часов">Да</param>
+                <param name="Цвет">Черный оникс</param>
+                <param name="Голосовой помощник">Алиса</param>
+                <param name="Язык голосового помощника">русский</param>
+                <param name="Суммарная мощность" unit="Вт">10</param>
+                <param name="Минимальная воспроизводимая частота" unit="Гц">50</param>
+                <param name="Максимальная воспроизводимая частота" unit="кГц">20</param>
+                <param name="Диаметр широкополосного динамика" unit="мм">42</param>
+                <param name="Отношение сигнал/шум" unit="дБ">95</param>
+                <param name="Количество микрофонов">4</param>
+                <barcode>2009084317361</barcode>
+            </offer>
+            <offer id="5410101000004">
+                <name>Умная колонка Яндекс Станция Мини с часами Красный гранат</name>
+                <url>https://yetanothershop.ru/products/umnaia_kolonka_yandex_mini_krasniy_granat</url>
+                <price>8990</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10101</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00020R</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_mini_krasniy_granat_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_mini_krasniy_granat_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_mini_krasniy_granat_3.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_mini_krasniy_granat_4.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_mini_krasniy_granat_5.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Обновленная версия умной колонки с голосовым ассистентом Алисой. Модель получила более громкий звук — мощностью 10 Вт. Колонкой можно управлять не только голосом, но и с помощью сенсорных кнопок, расположенных сверху. Алиса, конечно, умеет управлять умным домом и подбирать музыку, знает много детских сказок, разбудит вовремя, сообщит новости и напомнит о важных делах.</p>
+                        <p>Станция Мини впишется практически в любой интерьер благодаря лаконичному дизайну и возможности выбрать цвет. В интернет колонка выходит по Wi-Fi, а Bluetooth 5.0 позволит подключать, например, такие устройства, как умная лампа и пылесос.</p>
+                    ]]>
+                </description>
+                <param name="Наличие часов">Да</param>
+                <param name="Цвет">Красный гранат</param>
+                <param name="Голосовой помощник">Алиса</param>
+                <param name="Язык голосового помощника">русский</param>
+                <param name="Суммарная мощность" unit="Вт">10</param>
+                <param name="Минимальная воспроизводимая частота" unit="Гц">50</param>
+                <param name="Максимальная воспроизводимая частота" unit="кГц">20</param>
+                <param name="Диаметр широкополосного динамика" unit="мм">42</param>
+                <param name="Отношение сигнал/шум" unit="дБ">95</param>
+                <param name="Количество микрофонов">4</param>
+                <barcode>2009084317330</barcode>
+            </offer>
+            <offer id="5410101000005">
+                <name>Умная колонка Яндекс Станция Мини без часов Синий сапфир</name>
+                <url>https://yetanothershop.ru/products/umnaia_kolonka_yandex_mini_bez_chasov_siniy_sapfir</url>
+                <price>7990</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10101</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00021B</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_mini_bez_chasov_siniy_sapfir_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_mini_bez_chasov_siniy_sapfir_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_mini_bez_chasov_siniy_sapfir_3.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_mini_bez_chasov_siniy_sapfir_4.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Обновленная версия умной колонки с голосовым ассистентом Алисой. Модель получила более громкий звук — мощностью 10 Вт. Колонкой можно управлять не только голосом, но и с помощью сенсорных кнопок, расположенных сверху. Алиса, конечно, умеет управлять умным домом и подбирать музыку, знает много детских сказок, разбудит вовремя, сообщит новости и напомнит о важных делах.</p>
+                        <p>Станция Мини впишется практически в любой интерьер благодаря лаконичному дизайну и возможности выбрать цвет. В интернет колонка выходит по Wi-Fi, а Bluetooth 5.0 позволит подключать, например, такие устройства, как умная лампа и пылесос.</p>
+                    ]]>
+                </description>
+                <param name="Наличие часов">Нет</param>
+                <param name="Цвет">Синий сапфир</param>
+                <param name="Голосовой помощник">Алиса</param>
+                <param name="Язык голосового помощника">русский</param>
+                <param name="Суммарная мощность" unit="Вт">10</param>
+                <param name="Минимальная воспроизводимая частота" unit="Гц">50</param>
+                <param name="Максимальная воспроизводимая частота" unit="кГц">20</param>
+                <param name="Диаметр широкополосного динамика" unit="мм">42</param>
+                <param name="Отношение сигнал/шум" unit="дБ">95</param>
+                <param name="Количество микрофонов">4</param>
+                <barcode>4670028540671</barcode>
+            </offer>
+            <offer id="5410101000006">
+                <name>Умная колонка Яндекс Станция Мини без часов Серый опал</name>
+                <url>https://yetanothershop.ru/products/umnaia_kolonka_yandex_mini_bez_chasov_seriy_opal</url>
+                <price>7990</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10101</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00021G</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_mini_bez_chasov_seriy_opal_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_mini_bez_chasov_seriy_opal_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_mini_bez_chasov_seriy_opal_3.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_mini_bez_chasov_seriy_opal_4.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Обновленная версия умной колонки с голосовым ассистентом Алисой. Модель получила более громкий звук — мощностью 10 Вт. Колонкой можно управлять не только голосом, но и с помощью сенсорных кнопок, расположенных сверху. Алиса, конечно, умеет управлять умным домом и подбирать музыку, знает много детских сказок, разбудит вовремя, сообщит новости и напомнит о важных делах.</p>
+                        <p>Станция Мини впишется практически в любой интерьер благодаря лаконичному дизайну и возможности выбрать цвет. В интернет колонка выходит по Wi-Fi, а Bluetooth 5.0 позволит подключать, например, такие устройства, как умная лампа и пылесос.</p>
+                    ]]>
+                </description>
+                <param name="Наличие часов">Нет</param>
+                <param name="Цвет">Серый опал</param>
+                <param name="Голосовой помощник">Алиса</param>
+                <param name="Язык голосового помощника">русский</param>
+                <param name="Суммарная мощность" unit="Вт">10</param>
+                <param name="Минимальная воспроизводимая частота" unit="Гц">50</param>
+                <param name="Максимальная воспроизводимая частота" unit="кГц">20</param>
+                <param name="Диаметр широкополосного динамика" unit="мм">42</param>
+                <param name="Отношение сигнал/шум" unit="дБ">95</param>
+                <param name="Количество микрофонов">4</param>
+                <barcode>4670028540657</barcode>
+            </offer>
+            <offer id="5410101000007">
+                <name>Умная колонка Яндекс Станция Мини без часов Черный оникс</name>
+                <url>https://yetanothershop.ru/products/umnaia_kolonka_yandex_mini_bez_chasov_chernyi_oniks</url>
+                <price>7990</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10101</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00021K</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_mini_bez_chasov_chernyi_oniks_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_mini_bez_chasov_chernyi_oniks_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_mini_bez_chasov_chernyi_oniks_3.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_mini_bez_chasov_chernyi_oniks_4.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Обновленная версия умной колонки с голосовым ассистентом Алисой. Модель получила более громкий звук — мощностью 10 Вт. Колонкой можно управлять не только голосом, но и с помощью сенсорных кнопок, расположенных сверху. Алиса, конечно, умеет управлять умным домом и подбирать музыку, знает много детских сказок, разбудит вовремя, сообщит новости и напомнит о важных делах.</p>
+                        <p>Станция Мини впишется практически в любой интерьер благодаря лаконичному дизайну и возможности выбрать цвет. В интернет колонка выходит по Wi-Fi, а Bluetooth 5.0 позволит подключать, например, такие устройства, как умная лампа и пылесос.</p>
+                    ]]>
+                </description>
+                <param name="Наличие часов">Нет</param>
+                <param name="Цвет">Черный оникс</param>
+                <param name="Голосовой помощник">Алиса</param>
+                <param name="Язык голосового помощника">русский</param>
+                <param name="Суммарная мощность" unit="Вт">10</param>
+                <param name="Минимальная воспроизводимая частота" unit="Гц">50</param>
+                <param name="Максимальная воспроизводимая частота" unit="кГц">20</param>
+                <param name="Диаметр широкополосного динамика" unit="мм">42</param>
+                <param name="Отношение сигнал/шум" unit="дБ">95</param>
+                <param name="Количество микрофонов">4</param>
+                <barcode>4670028540589</barcode>
+            </offer>
+            <offer id="5410101000008">
+                <name>Умная колонка Яндекс Станция Мини без часов Красный гранат</name>
+                <url>https://yetanothershop.ru/products/umnaia_kolonka_yandex_mini_bez_chasov_krasniy_granat</url>
+                <price>7990</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10101</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00021R</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_mini_bez_chasov_krasniy_granat_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_mini_bez_chasov_krasniy_granat_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_mini_bez_chasov_krasniy_granat_3.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Обновленная версия умной колонки с голосовым ассистентом Алисой. Модель получила более громкий звук — мощностью 10 Вт. Колонкой можно управлять не только голосом, но и с помощью сенсорных кнопок, расположенных сверху. Алиса, конечно, умеет управлять умным домом и подбирать музыку, знает много детских сказок, разбудит вовремя, сообщит новости и напомнит о важных делах.</p>
+                        <p>Станция Мини впишется практически в любой интерьер благодаря лаконичному дизайну и возможности выбрать цвет. В интернет колонка выходит по Wi-Fi, а Bluetooth 5.0 позволит подключать, например, такие устройства, как умная лампа и пылесос.</p>
+                    ]]>
+                </description>
+                <param name="Наличие часов">Нет</param>
+                <param name="Цвет">Красный гранат</param>
+                <param name="Голосовой помощник">Алиса</param>
+                <param name="Язык голосового помощника">русский</param>
+                <param name="Суммарная мощность" unit="Вт">10</param>
+                <param name="Минимальная воспроизводимая частота" unit="Гц">50</param>
+                <param name="Максимальная воспроизводимая частота" unit="кГц">20</param>
+                <param name="Диаметр широкополосного динамика" unit="мм">42</param>
+                <param name="Отношение сигнал/шум" unit="дБ">95</param>
+                <param name="Количество микрофонов">4</param>
+                <barcode>4670028540664</barcode>
+            </offer>
+            <offer id="5410101000009">
+                <name>Умная колонка Яндекс Станция Лайт Бежевый капучино</name>
+                <url>https://yetanothershop.ru/products/umnaia_kolonka_yandex_stantsiia_lait_bezhevyi_kapuchino</url>
+                <price>5490</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10101</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00025B</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_lait_bezhevyi_kapuchino_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_lait_bezhevyi_kapuchino_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_lait_bezhevyi_kapuchino_3.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_lait_bezhevyi_kapuchino_4.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Это яркая и компактная умная колонка, которой можно управлять голосом и сенсорными кнопками. Она отлично подойдёт для учёбы и развлечения детей. Внутри живёт виртуальный ассистент Алиса, которая ответит на вопросы маленьких почемучек, поможет решить пример или объяснит сложное правило. А ещё с ней можно поиграть в интересные игры, просто поболтать и даже сочинить собственную сказку.</p>
+                        <p>Помимо этого, умная колонка украсит интерьер. Матовый корпус приятно держать в руках, а расцветка порадует глаз. У Алисы в Станции Лайт — свой характер, который зависит от цвета устройства. Чтобы пользоваться Станцией Лайт, нужно подключиться к интернету по Wi-Fi и иметь аккаунт на Яндексе.</p>
+                    ]]>
+                </description>
+                <param name="Цвет">Капучино</param>
+                <param name="Голосовой помощник">Алиса</param>
+                <param name="Язык голосового помощника">русский</param>
+                <param name="Суммарная мощность" unit="Вт">5</param>
+                <param name="Минимальная воспроизводимая частота" unit="Гц">50</param>
+                <param name="Максимальная воспроизводимая частота" unit="кГц">20</param>
+                <param name="Диаметр широкополосного динамика" unit="мм">40</param>
+                <param name="Количество микрофонов">4</param>
+                <barcode>2009084317217</barcode>
+            </offer>
+            <offer id="5410101000010">
+                <name>Умная колонка Яндекс Станция Лайт Бирюзовая мята</name>
+                <url>https://yetanothershop.ru/products/umnaia_kolonka_yandex_stantsiia_lait_biriuzovaia_miata</url>
+                <price>5490</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10101</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00025G</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_lait_biriuzovaia_miata_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_lait_biriuzovaia_miata_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_lait_biriuzovaia_miata_3.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_lait_biriuzovaia_miata_4.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Это яркая и компактная умная колонка, которой можно управлять голосом и сенсорными кнопками. Она отлично подойдёт для учёбы и развлечения детей. Внутри живёт виртуальный ассистент Алиса, которая ответит на вопросы маленьких почемучек, поможет решить пример или объяснит сложное правило. А ещё с ней можно поиграть в интересные игры, просто поболтать и даже сочинить собственную сказку.</p>
+                        <p>Помимо этого, умная колонка украсит интерьер. Матовый корпус приятно держать в руках, а расцветка порадует глаз. У Алисы в Станции Лайт — свой характер, который зависит от цвета устройства. Чтобы пользоваться Станцией Лайт, нужно подключиться к интернету по Wi-Fi и иметь аккаунт на Яндексе.</p>
+                    ]]>
+                </description>
+                <param name="Цвет">Мята</param>
+                <param name="Голосовой помощник">Алиса</param>
+                <param name="Язык голосового помощника">русский</param>
+                <param name="Суммарная мощность" unit="Вт">5</param>
+                <param name="Минимальная воспроизводимая частота" unit="Гц">50</param>
+                <param name="Максимальная воспроизводимая частота" unit="кГц">20</param>
+                <param name="Диаметр широкополосного динамика" unit="мм">40</param>
+                <param name="Количество микрофонов">4</param>
+                <barcode>2009084317224</barcode>
+            </offer>
+            <offer id="5410101000011">
+                <name>Умная колонка Яндекс Станция Лайт Розовый фламинго</name>
+                <url>https://yetanothershop.ru/products/umnaia_kolonka_yandex_stantsiia_lait_rozovyi_flamingo_5vt</url>
+                <price>5490</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10101</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00025N</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_lait_rozovyi_flamingo_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_lait_rozovyi_flamingo_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_lait_rozovyi_flamingo_3.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Это яркая и компактная умная колонка, которой можно управлять голосом и сенсорными кнопками. Она отлично подойдёт для учёбы и развлечения детей. Внутри живёт виртуальный ассистент Алиса, которая ответит на вопросы маленьких почемучек, поможет решить пример или объяснит сложное правило. А ещё с ней можно поиграть в интересные игры, просто поболтать и даже сочинить собственную сказку.</p>
+                        <p>Помимо этого, умная колонка украсит интерьер. Матовый корпус приятно держать в руках, а расцветка порадует глаз. У Алисы в Станции Лайт — свой характер, который зависит от цвета устройства. Чтобы пользоваться Станцией Лайт, нужно подключиться к интернету по Wi-Fi и иметь аккаунт на Яндексе.</p>
+                    ]]>
+                </description>
+                <param name="Цвет">Фламинго</param>
+                <param name="Голосовой помощник">Алиса</param>
+                <param name="Язык голосового помощника">русский</param>
+                <param name="Суммарная мощность" unit="Вт">5</param>
+                <param name="Минимальная воспроизводимая частота" unit="Гц">50</param>
+                <param name="Максимальная воспроизводимая частота" unit="кГц">20</param>
+                <param name="Диаметр широкополосного динамика" unit="мм">40</param>
+                <param name="Количество микрофонов">4</param>
+                <barcode>2009084317231</barcode>
+            </offer>
+            <offer id="5410101000012">
+                <name>Умная колонка Яндекс Станция Лайт Фиолетовый ультравиолет</name>
+                <url>https://yetanothershop.ru/products/umnaia_kolonka_yandex_stantsiia_lait_fioletovyi_ultraviolet_5vt</url>
+                <price>5490</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10101</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00025P</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_lait_fioletovyi_ultraviolet_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_lait_fioletovyi_ultraviolet_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_lait_fioletovyi_ultraviolet_3.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_lait_fioletovyi_ultraviolet_4.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Это яркая и компактная умная колонка, которой можно управлять голосом и сенсорными кнопками. Она отлично подойдёт для учёбы и развлечения детей. Внутри живёт виртуальный ассистент Алиса, которая ответит на вопросы маленьких почемучек, поможет решить пример или объяснит сложное правило. А ещё с ней можно поиграть в интересные игры, просто поболтать и даже сочинить собственную сказку.</p>
+                        <p>Помимо этого, умная колонка украсит интерьер. Матовый корпус приятно держать в руках, а расцветка порадует глаз. У Алисы в Станции Лайт — свой характер, который зависит от цвета устройства. Чтобы пользоваться Станцией Лайт, нужно подключиться к интернету по Wi-Fi и иметь аккаунт на Яндексе.</p>
+                    ]]>
+                </description>
+                <param name="Цвет">Ультрафиолет</param>
+                <param name="Голосовой помощник">Алиса</param>
+                <param name="Язык голосового помощника">русский</param>
+                <param name="Суммарная мощность" unit="Вт">5</param>
+                <param name="Минимальная воспроизводимая частота" unit="Гц">50</param>
+                <param name="Максимальная воспроизводимая частота" unit="кГц">20</param>
+                <param name="Диаметр широкополосного динамика" unit="мм">40</param>
+                <param name="Количество микрофонов">4</param>
+                <barcode>4610037459113</barcode>
+            </offer>
+            <offer id="5410101000013">
+                <name>Умная колонка Яндекс Станция Лайт Красный чили</name>
+                <url>https://yetanothershop.ru/products/umnaia_kolonka_yandex_stantsiia_lait_krasnyi_chili</url>
+                <price>5490</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10101</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00025R</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_lait_krasnyi_chili_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_lait_krasnyi_chili_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_lait_krasnyi_chili_3.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Это яркая и компактная умная колонка, которой можно управлять голосом и сенсорными кнопками. Она отлично подойдёт для учёбы и развлечения детей. Внутри живёт виртуальный ассистент Алиса, которая ответит на вопросы маленьких почемучек, поможет решить пример или объяснит сложное правило. А ещё с ней можно поиграть в интересные игры, просто поболтать и даже сочинить собственную сказку.</p>
+                        <p>Помимо этого, умная колонка украсит интерьер. Матовый корпус приятно держать в руках, а расцветка порадует глаз. У Алисы в Станции Лайт — свой характер, который зависит от цвета устройства. Чтобы пользоваться Станцией Лайт, нужно подключиться к интернету по Wi-Fi и иметь аккаунт на Яндексе.</p>
+                    ]]>
+                </description>
+                <param name="Цвет">Чили</param>
+                <param name="Голосовой помощник">Алиса</param>
+                <param name="Язык голосового помощника">русский</param>
+                <param name="Суммарная мощность" unit="Вт">5</param>
+                <param name="Минимальная воспроизводимая частота" unit="Гц">50</param>
+                <param name="Максимальная воспроизводимая частота" unit="кГц">20</param>
+                <param name="Диаметр широкополосного динамика" unit="мм">40</param>
+                <param name="Количество микрофонов">4</param>
+                <barcode>2009084317248</barcode>
+            </offer>
+            <offer id="5410101000014">
+                <name>Умная колонка Яндекс Станция Лайт Желтый лимон</name>
+                <url>https://yetanothershop.ru/products/umnaia_kolonka_yandex_stantsiia_lait_zheltyi_limon</url>
+                <price>5490</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10101</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00025Y</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_lait_zheltyi_limon_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_lait_zheltyi_limon_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_lait_zheltyi_limon_3.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_lait_zheltyi_limon_4.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Это яркая и компактная умная колонка, которой можно управлять голосом и сенсорными кнопками. Она отлично подойдёт для учёбы и развлечения детей. Внутри живёт виртуальный ассистент Алиса, которая ответит на вопросы маленьких почемучек, поможет решить пример или объяснит сложное правило. А ещё с ней можно поиграть в интересные игры, просто поболтать и даже сочинить собственную сказку.</p>
+                        <p>Помимо этого, умная колонка украсит интерьер. Матовый корпус приятно держать в руках, а расцветка порадует глаз. У Алисы в Станции Лайт — свой характер, который зависит от цвета устройства. Чтобы пользоваться Станцией Лайт, нужно подключиться к интернету по Wi-Fi и иметь аккаунт на Яндексе.</p>
+                    ]]>
+                </description>
+                <param name="Цвет">Лимон</param>
+                <param name="Голосовой помощник">Алиса</param>
+                <param name="Язык голосового помощника">русский</param>
+                <param name="Суммарная мощность" unit="Вт">5</param>
+                <param name="Минимальная воспроизводимая частота" unit="Гц">50</param>
+                <param name="Максимальная воспроизводимая частота" unit="кГц">20</param>
+                <param name="Диаметр широкополосного динамика" unit="мм">40</param>
+                <param name="Количество микрофонов">4</param>
+                <barcode>2009084317255</barcode>
+            </offer>
+            <offer id="5410101000015">
+                <name>Умная колонка Яндекс Станция 2 с Алисой, синий кобальт, 30Вт</name>
+                <url>https://yetanothershop.ru/products/yandex_stantsiia_2_umnaia_kolonka_siniy_kobalt</url>
+                <price>17990</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10101</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00051B</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/yandex_stantsiia_2_umnaia_kolonka_siniy_kobalt_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/yandex_stantsiia_2_umnaia_kolonka_siniy_kobalt_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/yandex_stantsiia_2_umnaia_kolonka_siniy_kobalt_3.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Умная колонка второго поколения — с новым дизайном, звуком, центром управления умного дома и Алисой. Любимая музыка с чистым и глубоким звучанием, без искажений.</p>
+                        <p>Поддержка единого международного протокола Zigbee — чтобы умный дом быстрее отзывался на команды и работал даже без интернета.</p>
+                        <p>А также Алиса, которая вам помогает, запоминает, что вам нравится, и учится выражать эмоции.</p>
+                    ]]>
+                </description>
+                <param name="Цвет">Кобальт</param>
+                <param name="Голосовой помощник">Алиса</param>
+                <param name="Язык голосового помощника">русский</param>
+                <param name="Суммарная мощность" unit="Вт">30</param>
+                <param name="Минимальная воспроизводимая частота" unit="Гц">65</param>
+                <param name="Максимальная воспроизводимая частота" unit="кГц">20</param>
+                <param name="Диаметр широкополосного динамика" unit="мм">63.5</param>
+                <param name="Отношение сигнал/шум" unit="дБ">108</param>
+                <param name="Количество микрофонов">4</param>
+                <barcode>2009084317262</barcode>
+            </offer>
+            <offer id="5410101000016">
+                <name>Умная колонка Яндекс Станция 2 с Алисой, медный, 30Вт</name>
+                <url>https://yetanothershop.ru/products/yandex_stantsiia_2_umnaia_kolonka_medniy</url>
+                <price>17990</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10101</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00051C</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/yandex_stantsiia_2_umnaia_kolonka_medniy_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/yandex_stantsiia_2_umnaia_kolonka_medniy_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/yandex_stantsiia_2_umnaia_kolonka_medniy_3.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Умная колонка второго поколения — с новым дизайном, звуком, центром управления умного дома и Алисой. Любимая музыка с чистым и глубоким звучанием, без искажений.</p>
+                        <p>Поддержка единого международного протокола Zigbee — чтобы умный дом быстрее отзывался на команды и работал даже без интернета.</p>
+                        <p>А также Алиса, которая вам помогает, запоминает, что вам нравится, и учится выражать эмоции.</p>
+                    ]]>
+                </description>
+                <param name="Цвет">Медный</param>
+                <param name="Голосовой помощник">Алиса</param>
+                <param name="Язык голосового помощника">русский</param>
+                <param name="Суммарная мощность" unit="Вт">30</param>
+                <param name="Минимальная воспроизводимая частота" unit="Гц">65</param>
+                <param name="Максимальная воспроизводимая частота" unit="кГц">20</param>
+                <param name="Диаметр широкополосного динамика" unit="мм">63.5</param>
+                <param name="Отношение сигнал/шум" unit="дБ">108</param>
+                <param name="Количество микрофонов">4</param>
+                <barcode>2009084317279</barcode>
+            </offer>
+            <offer id="5410101000017">
+                <name>Умная колонка Яндекс Станция 2 с Алисой, песочный, 30Вт</name>
+                <url>https://yetanothershop.ru/products/yandex_stantsiia_2_umnaia_kolonka_pesochnyi</url>
+                <price>17990</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10101</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00051E</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/yandex_stantsiia_2_umnaia_kolonka_pesochnyi_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/yandex_stantsiia_2_umnaia_kolonka_pesochnyi_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/yandex_stantsiia_2_umnaia_kolonka_pesochnyi_3.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Умная колонка второго поколения — с новым дизайном, звуком, центром управления умного дома и Алисой. Любимая музыка с чистым и глубоким звучанием, без искажений.</p>
+                        <p>Поддержка единого международного протокола Zigbee — чтобы умный дом быстрее отзывался на команды и работал даже без интернета.</p>
+                        <p>А также Алиса, которая вам помогает, запоминает, что вам нравится, и учится выражать эмоции.</p>
+                    ]]>
+                </description>
+                <param name="Цвет">Песочный</param>
+                <param name="Голосовой помощник">Алиса</param>
+                <param name="Язык голосового помощника">русский</param>
+                <param name="Суммарная мощность" unit="Вт">30</param>
+                <param name="Минимальная воспроизводимая частота" unit="Гц">65</param>
+                <param name="Максимальная воспроизводимая частота" unit="кГц">20</param>
+                <param name="Диаметр широкополосного динамика" unit="мм">63.5</param>
+                <param name="Отношение сигнал/шум" unit="дБ">108</param>
+                <param name="Количество микрофонов">4</param>
+                <barcode>2009084317286</barcode>
+            </offer>
+            <offer id="5410101000018">
+                <name>Умная колонка Яндекс Станция 2 с Алисой, черный антрацит, 30Вт</name>
+                <url>https://yetanothershop.ru/products/yandex_stantsiia_2_umnaia_kolonka_antracit</url>
+                <price>17990</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10101</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00051K</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/yandex_stantsiia_2_umnaia_kolonka_antracit_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/yandex_stantsiia_2_umnaia_kolonka_antracit_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/yandex_stantsiia_2_umnaia_kolonka_antracit_3.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Умная колонка второго поколения — с новым дизайном, звуком, центром управления умного дома и Алисой. Любимая музыка с чистым и глубоким звучанием, без искажений.</p>
+                        <p>Поддержка единого международного протокола Zigbee — чтобы умный дом быстрее отзывался на команды и работал даже без интернета.</p>
+                        <p>А также Алиса, которая вам помогает, запоминает, что вам нравится, и учится выражать эмоции.</p>
+                    ]]>
+                </description>
+                <param name="Цвет">Антрацит</param>
+                <param name="Голосовой помощник">Алиса</param>
+                <param name="Язык голосового помощника">русский</param>
+                <param name="Суммарная мощность" unit="Вт">30</param>
+                <param name="Минимальная воспроизводимая частота" unit="Гц">65</param>
+                <param name="Максимальная воспроизводимая частота" unit="кГц">20</param>
+                <param name="Диаметр широкополосного динамика" unit="мм">63.5</param>
+                <param name="Отношение сигнал/шум" unit="дБ">108</param>
+                <param name="Количество микрофонов">4</param>
+                <barcode>2009084317293</barcode>
+            </offer>
+            <offer id="5410101000019">
+                <name>Умная колонка Яндекс Станция 2 с Алисой, красный рубин, 30Вт</name>
+                <url>https://yetanothershop.ru/products/yandex_stantsiia_2_umnaia_kolonka_krasniy_rubin</url>
+                <price>17990</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10101</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00051R</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/yandex_stantsiia_2_umnaia_kolonka_krasniy_rubin_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/yandex_stantsiia_2_umnaia_kolonka_krasniy_rubin_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/yandex_stantsiia_2_umnaia_kolonka_krasniy_rubin_3.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/yandex_stantsiia_2_umnaia_kolonka_krasniy_rubin_4.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/yandex_stantsiia_2_umnaia_kolonka_krasniy_rubin_5.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/yandex_stantsiia_2_umnaia_kolonka_krasniy_rubin_6.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/yandex_stantsiia_2_umnaia_kolonka_krasniy_rubin_7.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Умная колонка второго поколения — с новым дизайном, звуком, центром управления умного дома и Алисой. Любимая музыка с чистым и глубоким звучанием, без искажений.</p>
+                        <p>Поддержка единого международного протокола Zigbee — чтобы умный дом быстрее отзывался на команды и работал даже без интернета.</p>
+                        <p>А также Алиса, которая вам помогает, запоминает, что вам нравится, и учится выражать эмоции.</p>
+                    ]]>
+                </description>
+                <param name="Цвет">Красный рубин</param>
+                <param name="Голосовой помощник">Алиса</param>
+                <param name="Язык голосового помощника">русский</param>
+                <param name="Суммарная мощность" unit="Вт">30</param>
+                <param name="Минимальная воспроизводимая частота" unit="Гц">65</param>
+                <param name="Максимальная воспроизводимая частота" unit="кГц">20</param>
+                <param name="Диаметр широкополосного динамика" unit="мм">63.5</param>
+                <param name="Отношение сигнал/шум" unit="дБ">108</param>
+                <param name="Количество микрофонов">4</param>
+                <barcode>4670028540985</barcode>
+            </offer>
+            <offer id="5410101000020">
+                <name>Умная колонка Яндекс Станция Макс Бежевый</name>
+                <url>https://yetanothershop.ru/products/umnaia_kolonka_yandex_stantsiia_maks_bezheviy</url>
+                <price>33990</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10101</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00053E</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_maks_bezheviy_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_maks_bezheviy_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_maks_bezheviy_3.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Умная колонка Яндекс Станция Макс с голосовым помощником Алисой, мощностью звучания 65 Вт, встроенным хабом управления Zigbee, беспроводной связью Wi-Fi (2,4–5 ГГц) и Bluetooth 5.0, с возможностью встраивания в экосистему умного дома — от официального поставщика с гарантией от производителя. Яндекс Станция Макс — самая мощная модель умных колонок от отечественного IT-гиганта — имеет поистине выдающиеся характеристики:</p>
+                        <p>Встроенный хаб управления Zigbee, благодаря которому Станция Макс напрямую взаимодействует с датчиками и другими устройствами умного дома, работающими по протоколу Zigbee. Сделайте Станцию Макс центром умного дома и общайтесь с ним голосом: например, спрашивайте у Алисы, какие сейчас температура и влажность в комнате.</p>
+                        <p>Ваш личный помощник, который спланирует вместе с вами день и не даст забыть о важном. Поставить будильник, включить чайник, напомнить о приеме витаминов — для Яндекс Станции Макс это не проблема. А после суматошного рабочего дня попросите Алису включить ваш любимый фильм — и наслаждайтесь просмотром в высоком разрешении 4К.</p>
+                        <p>Пять динамиков общей мощностью 65 Вт дают запас громкости, которого хватит даже для шумных вечеринок.</p>
+                        <p>Трехполосный звук, при котором низкие, средние и высокие частоты воспроизводят разные динамики, позволяет слышать каждый музыкальный инструмент в отдельности.</p>
+                        <p>Технология Multiroom объединит все Яндекс Станции в доме для синхронного воспроизведения.</p>
+                    ]]>
+                </description>
+                <param name="Цвет">Бежевый</param>
+                <param name="Голосовой помощник">Алиса</param>
+                <param name="Язык голосового помощника">русский</param>
+                <param name="Суммарная мощность" unit="Вт">65</param>
+                <param name="Минимальная воспроизводимая частота" unit="Гц">45</param>
+                <param name="Максимальная воспроизводимая частота" unit="кГц">20</param>
+                <param name="Диаметр НЧ-динамика" unit="мм">88</param>
+                <param name="Отношение сигнал/шум" unit="дБ">108</param>
+                <param name="Количество микрофонов">7</param>
+                <barcode>4670028541098</barcode>
+            </offer>
+            <offer id="5410101000021">
+                <name>Умная колонка Яндекс Станция Макс Черный</name>
+                <url>https://yetanothershop.ru/products/umnaia_kolonka_yandex_stantsiia_maks_chernyi</url>
+                <price>33990</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10101</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00053K</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_maks_chernyi_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_maks_chernyi_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_maks_chernyi_3.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Умная колонка Яндекс Станция Макс с голосовым помощником Алисой, мощностью звучания 65 Вт, встроенным хабом управления Zigbee, беспроводной связью Wi-Fi (2,4–5 ГГц) и Bluetooth 5.0, с возможностью встраивания в экосистему умного дома — от официального поставщика с гарантией от производителя. Яндекс Станция Макс — самая мощная модель умных колонок от отечественного IT-гиганта — имеет поистине выдающиеся характеристики:</p>
+                        <p>Встроенный хаб управления Zigbee, благодаря которому Станция Макс напрямую взаимодействует с датчиками и другими устройствами умного дома, работающими по протоколу Zigbee. Сделайте Станцию Макс центром умного дома и общайтесь с ним голосом: например, спрашивайте у Алисы, какие сейчас температура и влажность в комнате.</p>
+                        <p>Ваш личный помощник, который спланирует вместе с вами день и не даст забыть о важном. Поставить будильник, включить чайник, напомнить о приеме витаминов — для Яндекс Станции Макс это не проблема. А после суматошного рабочего дня попросите Алису включить ваш любимый фильм — и наслаждайтесь просмотром в высоком разрешении 4К.</p>
+                        <p>Пять динамиков общей мощностью 65 Вт дают запас громкости, которого хватит даже для шумных вечеринок.</p>
+                        <p>Трехполосный звук, при котором низкие, средние и высокие частоты воспроизводят разные динамики, позволяет слышать каждый музыкальный инструмент в отдельности.</p>
+                        <p>Технология Multiroom объединит все Яндекс Станции в доме для синхронного воспроизведения.</p>
+                    ]]>
+                </description>
+                <param name="Цвет">Черный</param>
+                <param name="Голосовой помощник">Алиса</param>
+                <param name="Язык голосового помощника">русский</param>
+                <param name="Суммарная мощность" unit="Вт">65</param>
+                <param name="Минимальная воспроизводимая частота" unit="Гц">45</param>
+                <param name="Максимальная воспроизводимая частота" unit="кГц">20</param>
+                <param name="Диаметр НЧ-динамика" unit="мм">88</param>
+                <param name="Отношение сигнал/шум" unit="дБ">108</param>
+                <param name="Количество микрофонов">7</param>
+                <barcode>4670028541074</barcode>
+            </offer>
+            <offer id="5410101000022">
+                <name>Умная колонка Яндекс Станция Макс Зеленый</name>
+                <url>https://yetanothershop.ru/products/umnaia_kolonka_yandex_stantsiia_maks_zeleniy</url>
+                <price>33990</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10101</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00053Z</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_maks_zeleniy_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_maks_zeleniy_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_kolonka_yandex_stantsiia_maks_zeleniy_3.jpeg</picture>
+                <description>
+                    <![CDATA[
+                    <p>Умная колонка Яндекс Станция Макс с голосовым помощником Алисой, мощностью звучания 65 Вт, встроенным хабом управления Zigbee, беспроводной связью Wi-Fi (2,4–5 ГГц) и Bluetooth 5.0, с возможностью встраивания в экосистему умного дома — от официального поставщика с гарантией от производителя. Яндекс Станция Макс — самая мощная модель умных колонок от отечественного IT-гиганта — имеет поистине выдающиеся характеристики:</p>
+                    <p>Встроенный хаб управления Zigbee, благодаря которому Станция Макс напрямую взаимодействует с датчиками и другими устройствами умного дома, работающими по протоколу Zigbee. Сделайте Станцию Макс центром умного дома и общайтесь с ним голосом: например, спрашивайте у Алисы, какие сейчас температура и влажность в комнате.</p>
+                    <p>Ваш личный помощник, который спланирует вместе с вами день и не даст забыть о важном. Поставить будильник, включить чайник, напомнить о приеме витаминов — для Яндекс Станции Макс это не проблема. А после суматошного рабочего дня попросите Алису включить ваш любимый фильм — и наслаждайтесь просмотром в высоком разрешении 4К.</p>
+                    <p>Пять динамиков общей мощностью 65 Вт дают запас громкости, которого хватит даже для шумных вечеринок.</p>
+                    <p>Трехполосный звук, при котором низкие, средние и высокие частоты воспроизводят разные динамики, позволяет слышать каждый музыкальный инструмент в отдельности.</p>
+                    <p>Технология Multiroom объединит все Яндекс Станции в доме для синхронного воспроизведения.</p>
+                ]]>
+                </description>
+                <param name="Цвет">Зеленый</param>
+                <param name="Голосовой помощник">Алиса</param>
+                <param name="Язык голосового помощника">русский</param>
+                <param name="Суммарная мощность" unit="Вт">65</param>
+                <param name="Минимальная воспроизводимая частота" unit="Гц">45</param>
+                <param name="Максимальная воспроизводимая частота" unit="кГц">20</param>
+                <param name="Диаметр НЧ-динамика" unit="мм">88</param>
+                <param name="Отношение сигнал/шум" unit="дБ">108</param>
+                <param name="Количество микрофонов">7</param>
+                <barcode>4670028541135</barcode>
+            </offer>
+            <offer id="5410103000004">
+                <name>Умный пульт Яндекс</name>
+                <url>https://yetanothershop.ru/products/umnyi_pult_du_yandex</url>
+                <price>1490</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10103</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-0006</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/umnyi_pult_du_yandex_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnyi_pult_du_yandex_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnyi_pult_du_yandex_3.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnyi_pult_du_yandex_4.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnyi_pult_du_yandex_5.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnyi_pult_du_yandex_6.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnyi_pult_du_yandex_7.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnyi_pult_du_yandex_8.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Автоматизировать бытовую технику при помощи умного пульта Yandex SmartControl YNDX-0006 проще, чем может показаться. С его помощью можно управлять техникой, например, телевизором или кондиционером, а также любым другим устройством, которое поддерживает ИК-соединение. Также осуществляется передача данных посредством технологии Wi-Fi. Используя модель, можно не только включать/выключать технику, но и настраивать ее.</p>
+                        <p>Умный пульт Yandex SmartControl YNDX-0006 поддерживает управление посредством голосового помощника Яндекс или Алисы. Для этого просто нужно сказать, что необходимо сделать, и система передаст приказ на устройство. Благодаря этому появляется возможность удаленного управления бытовой техникой, даже если пользователь находится не дома. Для этого предварительно нужно настроить приборы и пульт.</p>
+                    ]]>
+                </description>
+                <param name="Тип пульта">Умный</param>
+                <param name="Передача сигнала">Wi-Fi, ИК</param>
+                <param name="Настройка пульта ДУ">Мобильное приложение</param>
+                <param name="Питание">Разъем micro USB (5 В)</param>
+                <param name="Опции и комплект">Голосовое управление</param>
+                <barcode>2009084317309</barcode>
+            </offer>
+            <offer id="5410103000005">
+                <name>Умная розетка Яндекс YNDX-0007</name>
+                <url>https://yetanothershop.ru/products/umnaia_rozetka_yandex_yndx_0007</url>
+                <price>1490</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10103</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-0007B</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/umnaia_rozetka_yandex_yndx_0007_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_rozetka_yandex_yndx_0007_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_rozetka_yandex_yndx_0007_3.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_rozetka_yandex_yndx_0007_4.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_rozetka_yandex_yndx_0007_5.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Устройство представляет собой блок в виде внешней электрической розетки, который подключается к электрической сети и позволяет подключить внешнее устройство к электричеству. Подключение внешнего устройства через Умную розетку Яндекса позволяет управлять его электрическим соединением через интернет (включение/выключение).</p>
+                    ]]>
+                </description>
+                <param name="Тип розетки">Евровилка</param>
+                <param name="Монтаж">Открытый</param>
+                <param name="Ориентация монтажа">Горизонтальная</param>
+                <param name="Материал">ABS пластик, металл, пластик, поликарбонат</param>
+                <param name="Особенности">Заземляющий контакт, подключение к смартфону</param>
+                <param name="Тип напряжения">Переменный ток (AC)</param>
+                <param name="Номинальное напряжение">230 В</param>
+                <barcode>4670028540060</barcode>
+            </offer>
+            <offer id="5410103000006">
+                <name>Умная розетка Яндекс YNDX-0007W</name>
+                <url>https://yetanothershop.ru/products/umnaia_rozetka_yandex_yndx_0007w</url>
+                <price>1490</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10103</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-0007W</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/umnaia_rozetka_yandex_yndx_0007w_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_rozetka_yandex_yndx_0007w_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_rozetka_yandex_yndx_0007w_3.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_rozetka_yandex_yndx_0007w_4.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>тип: розетка, цвет: белый, монтаж: открытый, линейка: Алиса, Экосистема Умного дома: Умный дом Яндекса, Протокол связи Умного дома: Wi-Fi, номинальный ток: 16 А, ориентация монтажа: горизонтальная, материал: ABS пластик, металл, пластик, поликарбонат, комплектация: прибор в сборе, Умная розетка Яндекс YNDX-0007B 16А Wi-Fi цвет черный, беспроводная мышка; USB приемник, батарейка АА х 1, количество розеток (комб. розетка): 1, номинальное напряжение: 230 В</p>
+                    ]]>
+                </description>
+                <param name="Тип розетки">Евровилка</param>
+                <param name="Монтаж">Открытый</param>
+                <param name="Ориентация монтажа">Горизонтальная</param>
+                <param name="Материал">ABS пластик, металл, пластик, поликарбонат</param>
+                <param name="Особенности">Заземляющий контакт, подключение к смартфону</param>
+                <param name="Тип напряжения">Переменный ток (AC)</param>
+                <param name="Номинальное напряжение">230 В</param>
+                <barcode>2009084317323</barcode>
+            </offer>
+            <offer id="5410103000007">
+                <name>Умная лампочка Яндекса E27 v2</name>
+                <url>https://yetanothershop.ru/products/umnaia_lampochka_yandexa_e27_v2</url>
+                <price>790</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10103</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00501</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/umnaia_lampochka_yandexa_e27_v2_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_lampochka_yandexa_e27_v2_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_lampochka_yandexa_e27_v2_3.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnaia_lampochka_yandexa_e27_v2_4.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Умная лампочка Яндекса YNDX-00501 – прекрасное решение для тех, кто только планирует создание системы умного дома, и тех, кто желает расширить его функционал.</p>
+                        <p>Лампа подключается по Wi-Fi через приложение Умный дом с Алисой и может управляться как с помощью голосового помощника Алисы через умную колонку Яндекса, так и реагировать на команды, отданные по мобильному приложению. К тому же есть возможность настройки работы лампы в рамках запланированных сценариев, включая и выключая свет по таймеру или сигналу включённых в систему датчиков.</p>
+                        <p>Стандартный цоколь Яндекс Лампочки E27 обеспечивает широкий спектр применения и стандартную установку. Номинальной мощности в 8 Вт и светового потока в 806 люмен достаточно для яркого и приятного глазу освещения комнаты, а возможность регулировать цветовую температуру от 2700 до 6500 К позволит создать тёплое мягкое освещение для романтичного вечера или холодный свет для продуктивной работы.</p>
+                    ]]>
+                </description>
+                <param name="Тип лампы">Светодиодная</param>
+                <param name="Энергосберегающая">Да</param>
+                <param name="Форма колбы">Груша</param>
+                <param name="Тип цоколя">E27</param>
+                <param name="Типоразмер">A60</param>
+                <param name="Напряжение" unit="В">220-240</param>
+                <param name="Степень пылевлагозащиты">IP20</param>
+                <param name="Минимальная цветовая температура" unit="K">2700</param>
+                <param name="Световой поток" unit="лм">800</param>
+                <barcode>4670028540855</barcode>
+            </offer>
+            <offer id="5410103000008">
+                <name>Модуль с Яндекс ТВ и Алисой</name>
+                <url>https://yetanothershop.ru/products/modul_s_yandex_tv_smart_tv_s_alisoi_4k</url>
+                <price>6990</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10103</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00251</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/modul_s_yandex_tv_smart_tv_s_alisoi_4k_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/modul_s_yandex_tv_smart_tv_s_alisoi_4k_2.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Компактное устройство, которое сделает ваш телевизор умнее и добавит туда Smart TV c Алисой. Подключайте и управляйте голосом.</p>
+                        <p>Особенности:</p>
+                        <p>Подключайте без проблем подойдёт телевизор с HDMI, а внутри всё уже настроено.</p>
+                        <p>Отдыхайте всей семьёй с кино, сериалами, мультиками, любимыми видеоблогами и смешными роликами из интернета.</p>
+                        <p>Смотрите кино в отличном качестве Модуль поддерживает форматы 4K и Dolby Vision</p>
+                        <p>Просто зовите Алису чтобы найти кино, что-нибудь выбрать и включить.</p>
+                        <p>Управляйте даже без пульта если у вас есть колонка с Алисой от бренда Яндекс, можете создать тандем с Модулем, чтобы включать телевизор и управлять плеером только с помощью голоса.</p>
+                    ]]>
+                </description>
+                <param name="Максимальное разрешение">4K UHD</param>
+                <param name="Процессор/чипсет">Amlogic S905Y2</param>
+                <param name="Оперативная память" unit="ГБ">2</param>
+                <param name="Блок питания">Внешний</param>
+                <param name="Охлаждение">Пассивное</param>
+                <param name="Операционная система">Android 9.0</param>
+                <param name="Управление со смартфона">Android/iOS</param>
+                <param name="Функции и опции">Интернет-радио, пульт ДУ</param>
+                <param name="Беспроводная связь">Bluetooth, Wi-Fi, ИК-порт</param>
+                <param name="Стандарт Wi-Fi">802.11ac</param>
+                <barcode>4670028540725</barcode>
+            </offer>
+            <offer id="5410103000009">
+                <name>Хаб Яндекса для устройств</name>
+                <url>https://yetanothershop.ru/products/umnyi_pult_yandex_khab_dlia_ustroistv</url>
+                <price>4990</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10103</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00510</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/umnyi_pult_yandex_khab_dlia_ustroistv_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/umnyi_pult_yandex_khab_dlia_ustroistv_2.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Универсальный Хаб Яндекса для простого и быстрого подключения разных приборов к умному дому с Алисой. И единая точка управления всеми устройствами. С Хабом умный дом сможет больше. Наполните его датчиками и множеством других Zigbee-устройств. Хаб соединит их с Яндекс Станцией, и вы будете управлять умным домом через приложение или голосом. Подключайте датчики Яндекса с Zigbee к Хабу напрямую, объединяйте с другими устройствами умного дома и задавайте сценарии. Множество процессов станут автоматизированными. По Wi-Fi Хаб соединяется с лампочками, чайниками, пылесосами и тысячами других девайсов разных производителей. А ещё Хаб – это смарт-пульт, действующий на 360°. Даже если у вас дома простой телевизор или кондиционер, соедините их с Хабом при помощи ИК-подключения и управляйте без пульта. Через приложение Дом с Алисой или через колонку голосом: «Алиса, включи телевизор»</p>
+                    ]]>
+                </description>
+                <param name="Экосистема Умного дома">Умный дом Яндекса</param>
+                <param name="Протокол связи">Bluetooth, Ethernet, USB, Wi-Fi, ZigBee, ИК-порт</param>
+                <param name="Разъемы и интерфейсы">Ethernet - RJ-45, USB-C (только питание)</param>
+                <param name="Особенности">инфракрасный пульт ДУ</param>
+                <barcode>4670028540879</barcode>
+            </offer>
+            <offer id="5410103000010">
+                <name>Датчик открытия дверей Яндекс</name>
+                <url>https://yetanothershop.ru/products/datchik_otkrytiia_magnitokontaktnyi_yandex</url>
+                <price>1990</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10103</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00520</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/datchik_otkrytiia_magnitokontaktnyi_yandex_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/datchik_otkrytiia_magnitokontaktnyi_yandex_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/datchik_otkrytiia_magnitokontaktnyi_yandex_3.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Компактный беспроводный датчик реагирует на открытие дверей и окон. Свяжите датчик с разными устройствами и создавайте сценарии в приложении Дом с Алисой. Когда датчик сработает, будут запускаться разные сценарии умного дома для вашего комфорта и спокойствия. Попробуйте задать сценарий, по которому датчик напомнит проветрить комнату, если окна закрыты больше 12 часов. И свяжите его с умным кондиционером, чтобы кондиционер не работал впустую, пока вы проветриваете. А ещё можно привязать датчик к умной лампочке — и свет в прихожей будет включаться автоматически, когда вы приходите домой.</p>
+                        <p>Вы всегда можете удалённо проверить статус датчика в приложении Дом с Алисой. Например, посмотреть, не забыли ли закрыть дома окно, или убедиться, что ребёнок вернулся из школы. Также в приложении можно настроить пуш-уведомления, чтобы быть в курсе, как дела дома.</p>
+                        <p>Для подключения датчика к Умному дому с Алисой нужна Станция, поддерживающая протокол Zigbee. Если ваша Станция без Zigbee, для подключения вам понадобится Хаб Яндекса для устройств.</p>
+                        <p>Датчик легко установить. Он состоит из двух частей: одна крепится на дверной косяк или оконную раму, другая — на дверь или створку окна.</p>
+                    ]]>
+                </description>
+                <param name="Автономный">Да</param>
+                <param name="Принцип работы">Магнитоконтактный</param>
+                <param name="Тип зоны обнаружения">Точечные</param>
+                <param name="Способ монтажа">Накладн. на поверхность</param>
+                <param name="Степень защиты (IP)">IP30</param>
+                <param name="Количество блоков">Двухблочный</param>
+                <barcode>4670028540909</barcode>
+            </offer>
+            <offer id="5410103000011">
+                <name>Датчик протечки Яндекс Zigbee</name>
+                <url>https://yetanothershop.ru/products/besprovodnoi_datchik_protechki_yandex</url>
+                <price>1990</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10103</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00521</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/besprovodnoi_datchik_protechki_yandex_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/besprovodnoi_datchik_protechki_yandex_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/besprovodnoi_datchik_protechki_yandex_3.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Датчик протечки «Яндекс» Zigbee YNDX-00521 поможет контролировать состояние водопроводной системы квартиры или офиса, устанавливается в санузле, ванной комнате или на кухне. При обнаружении воды на смартфон отправляется уведомление. При наличии синхронизации с клапанами, розетками перекрывание потока происходит в автоматическом режиме.</p>
+                        <p>Модель интегрируют в систему «Умный дом». История протечек фиксируется в специальном журнале, с которым можно ознакомиться в любое время. Работа от батарейки обеспечивает автономность и независимость от электрической сети. Водоустойчивый корпус сделан из пластика белого цвета. Размеры — 15х50х50 мм. Вес — 20 г.</p>
+                    ]]>
+                </description>
+                <param name="Раб. напряжение" unit="В">3</param>
+                <param name="Способ монтажа">Накладн. на поверхность</param>
+                <param name="Индикация">Оптический</param>
+                <param name="Тип соединения устройств">Беспроводное</param>
+                <param name="Протокол связи">Wi-Fi, ZigBee</param>
+                <barcode>4670028540916</barcode>
+            </offer>
+            <offer id="5410103000012">
+                <name>Датчик движения Яндекс</name>
+                <url>https://yetanothershop.ru/products/datchik_dvizheniia_yandex</url>
+                <price>1990</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10103</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00522</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/datchik_dvizheniia_yandex_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/datchik_dvizheniia_yandex_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/datchik_dvizheniia_yandex_3.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/datchik_dvizheniia_yandex_4.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Улавливает движение и запускает удобные сценарии освещения. Или передаёт, что в помещении кто-то есть.</p>
+                        <p>Беспроводной компактный датчик можно установить где угодно, в квартире или на даче: в прихожей, ванной, комнатах и даже на лоджии.</p>
+                        <p>Свяжите датчик с другими устройствами умного дома и создавайте множество удобных сценариев в приложении Дом с Алисой. Например, освещение в прихожей сможет включаться автоматически, когда вы вернётесь домой. А чтобы свет не горел зря, можно настроить его выключение при отсутствии движения. Также в приложении легко настроить пуш-уведомления — с ними вы всегда будете в курсе, например, если дома возникнет какое-то движение, пока вас нет.</p>
+                        <p>Для подключения датчика к Умному дому с Алисой нужна Станция, поддерживающая протокол Zigbee. Если ваша Станция без Zigbee, для подключения вам понадобится Хаб Яндекса для устройств.</p>
+                    ]]>
+                </description>
+                <param name="Автономный">Да</param>
+                <param name="Тип зоны обнаружения">Точечные</param>
+                <param name="Способ монтажа">Накладн. на поверхность</param>
+                <param name="Степень защиты (IP)">IP30</param>
+                <param name="Радиус обнаружения" unit="°">170</param>
+                <param name="Дальность обнаружения" unit="м">7</param>
+                <barcode>4670028540923</barcode>
+            </offer>
+            <offer id="5410103000013">
+                <name>Датчик температуры и влажности Яндекс</name>
+                <url>https://yetanothershop.ru/products/komnatnyi_datchik_temperatury_i_vlazhnosti_yandex</url>
+                <price>1990</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10103</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00523</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/komnatnyi_datchik_temperatury_i_vlazhnosti_yandex_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/komnatnyi_datchik_temperatury_i_vlazhnosti_yandex_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/komnatnyi_datchik_temperatury_i_vlazhnosti_yandex_3.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/komnatnyi_datchik_temperatury_i_vlazhnosti_yandex_4.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Для комфортного и здорового микроклимата. Измеряет температуру и влажность в комнате и включает устройства умного дома, когда нужно. Беспроводной компактный датчик легко установить практически где угодно.</p>
+                        <p>Свяжите датчик с разными устройствами и создавайте сценарии в приложении Дом с Алисой. Например, можно объединить датчик с умным кондиционером и увлажнителем. И настроить сценарий их автоматического запуска, если в комнате станет слишком жарко и сухо. А можно задать значение температуры, при котором дома будет включаться обогреватель.</p>
+                        <p>В приложении легко в любой момент проверить статистику и показания датчика. А если связать его со Станцией, достаточно будет просто спросить, например: «Алиса, какая температура в детской?».</p>
+                        <p>Для подключения датчика к Умному дому с Алисой нужна Станция, поддерживающая протокол Zigbee. Если ваша Станция без Zigbee, для подключения вам понадобится Хаб Яндекса для устройств.</p>
+                    ]]>
+                </description>
+                <param name="Тип датчика">Датчик температуры и влажности</param>
+                <param name="Минимальное значение диапазона измерения (температура)" unit="°C">-10</param>
+                <param name="Максимальное значение диапазона измерения (температура)" unit="°C">50</param>
+                <param name="Диапазон измерения максимального значния влажности">100</param>
+                <param name="Напряжение питания" unit="В">3</param>
+                <barcode>4670028540930</barcode>
+            </offer>
+            <offer id="5410103000014">
+                <name>Беспроводная кнопка, Яндекс, Zigbee, YNDX-00524</name>
+                <url>https://yetanothershop.ru/products/knopochnyi_vykliuchatel_knopka_yandex</url>
+                <price>1990</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10103</categoryId>
+                <vendor>Яндекс</vendor>
+                <vendorCode>YNDX-00524</vendorCode>
+                <picture>https://yetanothershop.ru/pictures/knopochnyi_vykliuchatel_knopka_yandex_1.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/knopochnyi_vykliuchatel_knopka_yandex_2.jpeg</picture>
+                <picture>https://yetanothershop.ru/pictures/knopochnyi_vykliuchatel_knopka_yandex_3.jpeg</picture>
+                <description>
+                    <![CDATA[
+                        <p>Работает от батареек и может стать удобным дверным звонком или единственной кнопкой для запуска и выключения разных устройств. Компактную кнопку легко установить где угодно, будь то дверной косяк или прикроватный столик. Свяжите кнопку с разными устройствами и создавайте сценарии в приложении Дом с Алисой. Попробуйте установить кнопку как дверной звонок — и она будет передавать сигнал на Яндекс Станцию и сообщение в приложение Дом с Алисой, когда к вам придут. Или поставьте беззвучный режим, если не хотите, чтобы вас беспокоили непрошенные гости. Если связать кнопку с другими устройствами умного дома и разместить в прихожей, вы сможете выключать всё одним нажатием, когда уходите из дома. А ещё удобно положить кнопку рядом с кроватью и, например, выключать свет и задвигать шторы, не вставая. С кнопкой получится настроить до трёх разных сценариев: по однократному, двойному и длительному нажатию. Для подключения датчика к Умному дому с Алисой нужна Станция, поддерживающая протокол Zigbee. Если ваша Станция без Zigbee, для подключения вам понадобится Хаб Яндекса для устройств.</p>
+                    ]]>
+                </description>
+                <param name="Линейка">Алиса</param>
+                <param name="Монтаж">Открытый</param>
+                <param name="Ориентация монтажа">Горизонтальная и вертикальная</param>
+                <param name="Тип крепления">Приклеивание</param>
+                <param name="Управление">Нажимная кнопка</param>
+                <param name="Материал">Металл, пластик</param>
+                <param name="Особенности">Подключение к смартфону</param>
+                <param name="Класс защиты (IP)">IP30</param>
+                <barcode>4670028540947</barcode>
+            </offer>
+        </offers>
+    </shop>
+</yml_catalog>
