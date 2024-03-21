@@ -301,6 +301,6 @@
 
 ## Примеры фидов
 
-- [Фид упрощённого типа](feed_examples/yandex_products_Ekaterinburg_feed.xml)
-- [Фид упрощённого формата с доставкой](feed_examples/yandex_products_Moscow_feed_with_delivery.xml)
-- [Фид произвольного формата](feed_examples/yandex_products_Saint_Petersburg_feed_vendor_type.xml)
+- [Фид упрощённого типа](feed-examples/yandex_products_Ekaterinburg_feed.xml)
+- [Фид упрощённого формата с доставкой](feed-examples/yandex_products_Moscow_feed_with_delivery.xml)
+- [Фид произвольного формата](feed-examples/yandex_products_Saint_Petersburg_feed_vendor_type.xml)
